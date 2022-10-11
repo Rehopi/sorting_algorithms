@@ -49,7 +49,7 @@ void sort(int *array, size_t size, int left, int right)
  */
 int partition(int *array, size_t size, int left, int right)
 {
-	int tmp, i;
+	int tmp;
 	int j,
 
 	i = left - 1;
