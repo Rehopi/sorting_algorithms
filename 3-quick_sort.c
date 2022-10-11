@@ -71,7 +71,7 @@ int partition(int *array, size_t size, int left, int right)
 	}
 
 	/*right*/
-	
+
 	if (array[right] < array[i + 1])
 	{
 		tmp = array[i + 1];
